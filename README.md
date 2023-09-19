@@ -2,6 +2,12 @@
 
 Add Your Expenses and incomes to track your usage for each categories
 
+https://github.com/ratRaceParticipant/ExpenseTracker/assets/114292201/eb1112d5-8091-40f3-ad7b-981f772aff26
+
+
+
+
+
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-09-17 at 10 49 10](https://github.com/ratRaceParticipant/ExpenseTracker/assets/114292201/9f52b962-8f68-4755-8623-5d914bcb49c7)
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-09-17 at 10 52 41](https://github.com/ratRaceParticipant/ExpenseTracker/assets/114292201/921957b0-4c09-4b94-a763-8d9840ef9490)
