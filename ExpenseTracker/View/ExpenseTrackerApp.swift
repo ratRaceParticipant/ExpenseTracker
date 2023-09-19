@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ExpenseTrackerApp: App {
+    @AppStorage("isFirstTimeStarted") var isFirstTimeStarted: Bool = true
     var body: some Scene {
         WindowGroup {
-            MainView()
+            if isFirstTimeStarted {
+                MainIntroductionView(isFirstTimeStarted: $isFirstTimeStarted)
+            } else {
+                MainView(isFirstTimeStarted: $isFirstTimeStarted)
+            }
         }
+        
     }
 }

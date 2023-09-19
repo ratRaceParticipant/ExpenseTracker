@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @Binding var isFirstTimeStarted: Bool
     @StateObject var vm = CoreDataViewModel()
     @State var currentTab: String = "Expenses"
     var body: some View {
@@ -33,11 +34,12 @@ struct MainView: View {
                 }
         }
         .tabViewStyle(DefaultTabViewStyle())
+       
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        MainView(isFirstTimeStarted: .constant(false))
     }
 }
